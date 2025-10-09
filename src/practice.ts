@@ -93,6 +93,19 @@ console.log(array623);
 array623.sort((a,b) => a-b);
 console.log(array623);
 
+let star = 0;
+let sum= 1;
+for(let i=0;i<10;i++)
+{
+    let temp = sum+star;
+    console.log(star);
+    star = sum;
+    sum = temp;
+
+}
+
+
+
 
 
 
