@@ -15,5 +15,6 @@ let array2:Array<string | number> = ['Vamsi','Srikar','Jogi',23,47];
 array2.push('Vamsi');
 for(let i=0;i<array2.length;i++){
     console.log(array2[i]);
+    console.log("This the End");
 }
 
