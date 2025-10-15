@@ -28,4 +28,6 @@ function gcf( num1:number,  num2:number): void{
     console.log(arr2[0]);
 
 
+
+
 }

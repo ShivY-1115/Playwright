@@ -104,7 +104,8 @@ for(let i=0;i<10;i++)
 
 }
 
-
+let nums12 = [12,34,3445455656,545];
+nums12.filter(x => x%2===0).forEach(x => console.log(x));
 
 
 
