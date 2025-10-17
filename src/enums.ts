@@ -1,14 +1,14 @@
 enum role {
-    "Vamsi",
-    "Srikar",
-    "Jogi"
+    "Jon",
+    "Snow",
+    "Stark"
 }
 
-let name1: role = role.Srikar
+let name1: role = role.Stark
 console.log(name1)
 
 enum role2 {
-    name="Vamsi Srikar Jogi",
+    name="Stark Stark Stark",
     number_specific_role = 1234,
     Adress = "123 St, Brusells"
 }
