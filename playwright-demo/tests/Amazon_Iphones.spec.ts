@@ -29,8 +29,9 @@ test("Amazon Iphones", async () => {
         const  values2 = await values.textContent();
         if(values2 && values2.includes("iPhone"))
         {
-            const hrf = await values.getAttribute("href");
-            console.log("href is",hrf);
+            const hrf = await values.locator("xpath=.//a[@target='_blank']").getAttribute("href");
+            //const hrf = await values.
+            console.log("href is found in: ",i," ",hrf);
             console.log("Iphone is found in: ",i," name: ",values2);
         }
     }

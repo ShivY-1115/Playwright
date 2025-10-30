@@ -25,7 +25,9 @@ function gcf( num1:number,  num2:number): void{
 
     arr2.sort((a,b) => b-a);
 
-    console.log(arr2[0]);
+    console.log(arr2[0])
+
+    arr2.sort((a,b) => a-b);
 
 
 

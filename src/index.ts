@@ -30,6 +30,6 @@ function message2():number{
     return 123;
 }
 
-let values = message2();
+let values =  message2();
 console.log(values);
 
